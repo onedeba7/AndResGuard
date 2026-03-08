@@ -34,7 +34,7 @@ allprojects {
 }
 
 ext {
-  javaVersion = JavaVersion.VERSION_17
+  javaVersion = JavaVersion.VERSION_11
 
   GROUP = 'com.tencent.mm'
   VERSION_NAME = "${ANDRESGUARD_VESSION}"
