@@ -5,6 +5,7 @@ buildscript {
     //jcenter()
     mavenCentral()
     gradlePluginPortal()
+    maven { url "https://jcenter.bintray.com" } 
   }
   dependencies {
     classpath 'com.android.tools.build:gradle:4.1.2'
@@ -19,6 +20,7 @@ allprojects {
     //jcenter()
     mavenCentral()
     gradlePluginPortal()
+    maven { url "https://jcenter.bintray.com" } 
   }
   tasks.withType(JavaCompile) {
     sourceCompatibility = rootProject.ext.javaVersion
