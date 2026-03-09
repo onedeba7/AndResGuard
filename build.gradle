@@ -36,15 +36,15 @@ allprojects {
 ext {
   javaVersion = JavaVersion.VERSION_11
 
-  GROUP = 'com.tencent.mm'
+  GROUP = 'com.github.onedeba7'
   VERSION_NAME = "${ANDRESGUARD_VESSION}"
 
   POM_PACKAGING = "pom"
   POM_DESCRIPTION = "Android Resource Proguard Core Lib"
 
-  POM_URL = "https://github.com/shwenzhang/AndResGuard"
-  POM_SCM_URL = "https://github.com/shwenzhang/AndResGuard.git"
-  POM_ISSUE_URL = 'https://github.com/shwenzhang/AndResGuard/issues'
+  POM_URL = "https://github.com/onedeba7/AndResGuard"
+  POM_SCM_URL = "https://github.com/onedeba7/AndResGuard.git"
+  POM_ISSUE_URL = 'https://github.com/onedeba7/AndResGuard/issues'
 
   POM_LICENCE_NAME = "Apache-2.0"
   POM_LICENCE_URL = " http://www.apache.org/licenses/"
